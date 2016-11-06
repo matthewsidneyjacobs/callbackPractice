@@ -32,6 +32,7 @@ and what you should write is the sayHi function that makes the code above work,
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 first(names, function(firstName){
   console.log('The first name in names is ' + firstName)
+
 });
 
 
@@ -117,7 +118,9 @@ contains(names, 'Colt', function(result){
 
 
     //Code Here for uniq
-    
+function uniq() {
+  
+}
 
 uniq(names, function(uniqArr){
   console.log('The new names array with all the duplicate items removed is ', uniqArr);
